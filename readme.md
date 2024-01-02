@@ -69,11 +69,3 @@ You will be employer-ready if you are able to:
 
 You will be employer-competitive if you are able to solve the following algorithms and successfully complete the assessments.
 
-
-## Heads-Up
-
-When you are are researching DOM and event resources, you might find jQuery solutions. jQuery is a lightweight JavaScript library that allows you execute JavaScript functionality with just a few lines of code. We'll cover jQuery in the next unit, but for now stick to resources that don't rely on jQuery or the `$` variable.
-
-## Resources
-
-Here are some additional resources to help solidify the topics covered in this unit.
