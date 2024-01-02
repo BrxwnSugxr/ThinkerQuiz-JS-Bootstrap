@@ -1,99 +1,75 @@
-# 04 Web APIs: Code Quiz
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+# # Unit 04: Web APIs 
+JS Quiz Game
+javascript Quiz Game with Local Storage of Scores
 
-## Your Task
+Hosted App:
 
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges.
+https://brxwnsugxr.github.io/ThinkerQuiz-JS-Bootstrap/
 
-To help familiarize you with these tests and allow you to use the skills covered in this module, this Challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface.
+**Description**
+This is a simple one page web app built to run a quiz, including a timer and score tracking and storage in Local memory. It has been built to be fully responsive, with clean HTML and multiple JS Functions to handle logic.
+![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.] (./Assets/img/Thinker.gif)
 
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
+## Overview:
 
-## User Story
+This week, you'll learn about **application programming interfaces**, or **APIs**, which allow web developers to create dynamic, interactive web applications. An essential part of a developer's toolbox, APIs can help add a wide range of functionality to your code.
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+APIs are even built directly into the browser. When a webpage is loaded in the browser, an object representation of the webpage (the **Document Object Model**, or **DOM**) is created. As a programming interface, the DOM allows us to use JavaScript to interact with HTML elements.
 
-## Acceptance Criteria
+During class and in this week's homework, you'll practice navigating the DOM. You'll also learn how to create and manipulate HTML elements, add event listeners, create timers, and store data&mdash;all using the power of JavaScript and an API built into the browser itself.
 
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
-```
+## Key Topics
 
-## Mock-Up
+The following topics will be covered in this unit:
 
-The following animation demonstrates the application functionality:
+* [Window object](https://developer.mozilla.org/en-US/docs/Web/API/Window)
 
+<<<<<<< HEAD
 ![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/img/Thinker.gif)
+=======
+* [Document Object Model (DOM)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+>>>>>>> a6f560ef91e466b00a10a3bc231b22fd366a8233
 
-## Grading Requirements
+* [Querying the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) 
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> - A repository that has no code
->
-> - A repository that includes a unique name but nothing else
->
-> - A repository that includes only a README file but nothing else
->
-> - A repository that only includes starter code
+* [Style property](https://developer.mozilla.org/en-US/docs/Web/API/ElementCSSInlineStyle/style)
 
-This Challenge is graded based on the following criteria:
+* [Setting element attributes](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
 
-### Technical Acceptance Criteria: 40%
+* [Creating DOM elements](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
 
-- Satisfies all of the preceding acceptance criteria.
+* [Appending elements](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
 
-### Deployment: 32%
+* [Intervals and timers](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
 
-- Application deployed at live URL.
+* [Event listeners](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 
-- Application loads with no errors.
+* [Keyboard events](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent)
 
-- Application GitHub URL submitted.
+* [Preventing default browser behavior](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 
-- GitHub repository contains application code.
+* [Stopping propogation](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation)
 
-### Application Quality: 15%
+* [Local and session storage](https://developer.mozilla.org/en-US/docs/Web/API/Storage)
 
-- Application user experience is intuitive and easy to navigate.
+* [Data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
 
-- Application user interface style is clean and polished.
+## Learning Objectives
 
-- Application resembles the mock-up functionality provided in the Challenge instructions.
+You will be employer-ready if you are able to:
 
-### Repository Quality: 13%
+* Identify the DOM and its relationship to HTML.
 
-- Repository has a unique name.
+* Select and dynamically generate HTML elements and content using Web API methods.
 
-- Repository follows best practices for file structure and naming conventions.
+* Implement DOM API methods to handle events like key presses and mouse clicks.
 
-- Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+* Explain event propagation and implement handling functions.
 
-- Repository contains multiple descriptive commit messages.
+* Store and retrieve data using the browser's local and session storage.
 
-- Repository contains quality readme file with description, screenshot, and link to deployed application.
+## Technical Interview Preparation
 
-## Review
+You will be employer-competitive if you are able to solve the following algorithms and successfully complete the assessments.
 
-You are required to submit BOTH of the following for review:
-
-- The URL of the functional, deployed application.
-
-- The URL of the GitHub repository, with a unique name and a readme describing the project.
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
