@@ -1,0 +1,136 @@
+/* colour pallete */
+:root {
+  --black: black;
+  --golden: goldenrod;
+  --light: lightgrey;
+  --white: white;
+  --darkredish: rgba(68, 63, 63, 0.429);
+  --fontfamily1: 'Montserrat', sans-serif;;
+  --fontfamily2: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+  font-family: var(--fontfamily1);
+  font-weight: 500;
+  font-size: 2.5em;
+}
+
+p {
+  font-family: var(--fontfamily2);
+  font-size: 2em;
+}
+
+.hide {
+  display: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 2em;
+  background-color: var(--light);
+}
+
+main,
+.quiz-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.scoreboard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-left: 4em;
+  margin-top: 3em;
+}
+
+.countdown {
+  color: var(--black);
+  font-size: 25px;
+  font-family: var(--fontfamily1);
+}
+
+#highscores {
+  font-size: 25px;
+  font-family: var(--fontfamily1);
+  text-decoration: none;
+  color: var(--black);
+}
+
+#highscores:hover {
+  text-decoration: overline;
+  color: var(--black);
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-top: 3rem;
+  cursor: pointer;
+  border: 0.5rem;
+  border-radius: 1rem;
+  border-color: var(--darkredish);
+  padding: 0.5rem 1rem;
+  font-family: var(--fontfamily2);
+  font-size: 1.5em;
+  font-weight: 200;
+  color: var(--white);
+  background-color: var(--black);
+  box-shadow: 0 1.25rem 1rem -1rem var(--black);
+}
+
+button:hover {
+  box-shadow: inset 0px 0px 8px var(--golden), 0 0 15px var(--golden);
+  background-color: var(--black);
+}
+
+#buttons {
+  display: inline;
+}
+
+#submit {
+  font-size: 1.5em;
+}
+
+#initials {
+  font-size: 0.75em;
+  border: 2px solid var(--black);
+}
+
+.answerCheck {
+  font-style: italic;
+  font-size: 1.5em;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+  margin-top: 2em;
+  padding-top: 1em;
+  color: rgba(0, 0, 0, 0.8);
+  border-top: 4px dotted var(--white);
+}
+
+@media screen and (max-width: 1200px) {
+  main,
+  .quiz-box,
+  .scoreboard {
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+}
